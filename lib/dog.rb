@@ -14,6 +14,7 @@ class Dog
   def self.all
     @@all.each {|dog| puts dog.name}
   end 
+  #Need to put dog.name, otherwise it would just put out the id of that instance, not the name assigned to it 
   
 end 
 
